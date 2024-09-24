@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto",sans-serif;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap');
+
+.header{
+    display: flex;
+    height:8vh;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+
+    >.nlogo{
+        height: 8vh;
+    }
+    >div{
+
+        text-decoration: none;
+        color: white;
+        font-size: 1.5vmax;
+        width:100%;
+
+        >a{
+            color: white;
+            text-decoration: none;
+            margin: 2.5vmax;
+            font-weight: 300;
+          
+        }
+    }
+    >.search{
+        height: 4vh;
+        margin-right: 5vmax;
+        cursor: pointer;
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+    
+}
